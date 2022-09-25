@@ -1,16 +1,18 @@
 body {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     margin: 0;
     font-family: Roboto, sans serif;
 }
-
+/* HEADER STYLES */
 .header {
-    width: 100vw;
+    width: 80vw;
     display: flex;
     background-color: #1f2937;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 10vw;
 }
 
 .header-logo {
@@ -33,4 +35,45 @@ body {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+/* HERO STYLES */
+
+.hero {
+    display: flex;
+    width: 90vw;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 96px 10vw;
+    gap: 5vw;
+}
+
+#hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0;
+}
+
+#hero-subtitle {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-text {
+    width: 40%;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 20px;
+    border: none;
+}
+
+.hero-img {
+    background-color: gray;
+    color: white;
+    padding: 96px;
 }
