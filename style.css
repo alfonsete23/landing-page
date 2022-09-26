@@ -1,3 +1,8 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     display: flex;
     justify-content: space-between;
@@ -134,4 +139,33 @@ body {
 #quote-author {
     font-weight: bold;
     text-align: right;
+}
+
+/* CALL TO ACTION STYLES */
+.call {
+    display: flex;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 10vh 10vw;
+    gap: 15vw;
+    border-radius: 8px;
+    padding: 32px 0;
+}
+
+#call-title {
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+#call-subtitle {
+    margin-top: 0;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.call button {
+    border: 1px solid white;
 }
